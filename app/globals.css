@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+:root {
+	--background: #ffffff;
+	--foreground: #171717;
+}
+
+@theme inline {
+	--color-background: var(--background);
+	--color-foreground: var(--foreground);
+	--font-outfit: var(--font-outfit);
+	--font-instrument-serif: var(--font-instrument-serif);
+	--font-geist-mono: var(--font-geist-mono);
+	--color-primary: #992d25;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--background: #0a0a0a;
+		--foreground: #ededed;
+	}
+}
+
+body {
+	background: var(--background);
+	color: var(--foreground);
+	font-family: ui-sans-serif, system-ui, sans-serif;
+}
+
+.font-outfit {
+	font-family: var(--font-outfit), -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.font-instrument-serif {
+	font-family: var(--font-instrument-serif), -apple-system, Roboto, Helvetica,
+		sans-serif;
+}
+
+.font-geist-mono {
+	font-family: var(--font-geist-mono), -apple-system, Roboto, Helvetica,
+		sans-serif;
+}
+/* Gradient text utility */
+.gradient-text {
+	background-image: linear-gradient(to bottom, #f5f5f5, #737373);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+}

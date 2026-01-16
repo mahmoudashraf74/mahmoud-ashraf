@@ -1,7 +1,5 @@
-import Header from "@/components/layout/Header/Header";
 import Hero from "@/components/sections/firstSection/Hero";
 import AboutMe from "@/components/sections/aboutMe/AboutMe";
-import Projects from "@/components/sections/Projects/Projects";
 import Skills from "@/components/sections/skills/Skills";
 import Footer from "@/components/layout/Footer/Footer";
 

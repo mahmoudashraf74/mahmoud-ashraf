@@ -1,3 +1,4 @@
+import LetsConnectButton from "@/components/shared/LetsConnectButton";
 import { ArrowRight } from "lucide-react";
 
 export default function Hero() {
@@ -45,16 +46,7 @@ export default function Hero() {
 
 				{/* CTA Button */}
 				<div className="pt-4">
-					<button className="group flex items-center justify-between gap-3 pl-3 pr-1 py-1 rounded-full border border-white/10 hover:border-[#0C6F4C] opacity-85 bg-white/10 hover:bg-[#0C6F4C]/20 text-[#1C1C1E] hover:text-white">
-						<div className="px-3">
-							<span className="text-white text-center font-outfit text-base font-medium leading-6">
-								Let's Connect
-							</span>
-						</div>
-						<div className="flex items-center justify-center p-2.5 rounded-full bg-white group-hover:bg-[#0C6F4C]">
-							<ArrowRight className="h-4 w-4" />
-						</div>
-					</button>
+					<LetsConnectButton />
 				</div>
 			</div>
 		</section>

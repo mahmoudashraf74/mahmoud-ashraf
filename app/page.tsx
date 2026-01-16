@@ -2,15 +2,17 @@ import Hero from "@/components/sections/firstSection/Hero";
 import AboutMe from "@/components/sections/aboutMe/AboutMe";
 import Skills from "@/components/sections/skills/Skills";
 import Footer from "@/components/layout/Footer/Footer";
+import Header from "@/components/layout/Header/Header";
 
 export default function Home() {
 	return (
 		<div className="min-h-screen">
-			{/* <Header /> */}
+			<Header />
 			<Hero />
 			{/* <Projects /> */}
-			<AboutMe />
 			<Skills />
+
+			<AboutMe />
 			<Footer />
 		</div>
 	);

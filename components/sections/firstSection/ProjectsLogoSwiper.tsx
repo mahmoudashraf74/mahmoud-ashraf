@@ -34,12 +34,14 @@ export default function ProjectsLogoSwiper() {
 					<SwiperSlide key={logo.id} className="flex justify-center">
 						<Link
 							href={logo?.link}
+							title={logo.alt}
 							target="_blank"
 							rel="noopener noreferrer"
 							className="h-20 flex items-center justify-center">
 							<img
 								src={logo.src}
 								alt={logo.alt}
+								title={logo.link}
 								className="h-full object-contain"
 							/>
 						</Link>

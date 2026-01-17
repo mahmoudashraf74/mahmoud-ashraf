@@ -13,20 +13,22 @@ export default function FooterRight() {
 			<div className="flex flex-col gap-2 md:gap-4 ">
 				{/* Email */}
 				<div className="flex items-center gap-3">
-					<a
+					<Link
 						href="mailto:mahmoudyaqout163@gmail.com"
+						title="email"
 						className="text-white text-lg md:text-2xl font-outfit hover:text-[#0C6F4C] transition-colors">
 						mahmoudyaqout163@gmail.com
-					</a>
+					</Link>
 				</div>
 				{/* Phone */}
 				<div className="flex items-center gap-3 md:gap-4">
 					<Phone className="w-8 h-8 text-white flex-shrink-0" strokeWidth={2} />
-					<a
+					<Link
 						href="tel:+201095691698"
+						title="phone"
 						className="text-white text-lg md:text-2xl font-outfit hover:text-[#0C6F4C] transition-colors">
 						+20 109 569 1698
-					</a>
+					</Link>
 				</div>
 			</div>
 			{/* Social Icons */}
@@ -34,12 +36,14 @@ export default function FooterRight() {
 				<Link
 					href="https://www.linkedin.com/in/mahmoud-ashraf-yaqout/"
 					target="_blank"
+					title="linkedin"
 					rel="noopener noreferrer">
 					<LinkedInIcon />
 				</Link>
 				<Link
 					href="https://wa.me/201095691698"
 					target="_blank"
+					title="whatsapp"
 					rel="noopener noreferrer">
 					<WhatsIcon />
 				</Link>

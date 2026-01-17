@@ -34,6 +34,7 @@ export default function Hero() {
 								<img
 									src="/assets/images/myImage.jpg"
 									alt="Mahmoud Ashraf"
+									title="Mahmoud Ashraf image"
 									className="w-20 h-10 object-cover"
 								/>
 							</div>

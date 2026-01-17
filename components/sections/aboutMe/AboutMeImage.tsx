@@ -17,6 +17,7 @@ export default function AboutMeImage({ src, alt }: AboutMeImageProps) {
 			<img
 				src={src}
 				alt={alt}
+				title={alt}
 				className="absolute w-full max-w-[450px] h-[450px] rounded-[51px] object-cover left-0 top-[103px] md:top-[103px]"
 			/>
 		</div>

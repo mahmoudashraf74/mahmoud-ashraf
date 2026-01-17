@@ -78,6 +78,7 @@ export default function AboutMeContent({
 								key={social.label}
 								href={social.href}
 								target="_blank"
+								title={social.label}
 								rel="noopener noreferrer"
 								className="flex items-center justify-center w-5 h-5 hover:opacity-70 transition-opacity"
 								aria-label={social.label}>
@@ -90,6 +91,7 @@ export default function AboutMeContent({
 				{/* Resume Link */}
 				<Link
 					href={resume.href}
+					title={resume.label}
 					target="_blank"
 					className="inline-flex items-center gap-2 pt-2 group w-fit">
 					<span

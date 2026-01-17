@@ -1,10 +1,11 @@
 import ProjectCard from "./ProjectCard";
 import { projectsData } from "../../../constants/projectsData";
-import { Project } from "../../../interfaces/project";
 
 export default function Projects() {
 	return (
-		<section className="relative w-full min-h-screen flex flex-col py-28 px-6 md:px-12 lg:px-24">
+		<section
+			className="relative w-full min-h-screen flex flex-col py-28 px-6 md:px-12 lg:px-24"
+			id="Projects">
 			<div className="flex w-full max-w-[1280px] flex-col gap-20">
 				{/* Section Header */}
 				<div className="flex flex-col items-start gap-4">

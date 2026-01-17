@@ -8,7 +8,7 @@ import { projectLogos } from "@/constants/projectsSwiper";
 
 export default function ProjectsLogoSwiper() {
 	return (
-		<div className="w-full">
+		<div className="relative w-full px-2">
 			<Swiper
 				modules={[Autoplay]}
 				autoplay={{
@@ -23,10 +23,10 @@ export default function ProjectsLogoSwiper() {
 						slidesPerView: 2.5,
 					},
 					768: {
-						slidesPerView: 4,
+						slidesPerView: 4.5,
 					},
 					1024: {
-						slidesPerView: 5,
+						slidesPerView: 5.5,
 					},
 				}}
 				className="w-full">

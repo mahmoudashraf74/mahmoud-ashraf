@@ -10,7 +10,12 @@ const navItems = [
 ];
 
 const handleNavClick = (key: string) => {
-	if (key === "about") {
+	if (key === "work") {
+		const aboutSection = document.getElementById("Projects");
+		if (aboutSection) {
+			aboutSection.scrollIntoView({ behavior: "smooth" });
+		}
+	} else if (key === "about") {
 		const aboutSection = document.getElementById("about");
 		if (aboutSection) {
 			aboutSection.scrollIntoView({ behavior: "smooth" });

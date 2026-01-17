@@ -1,10 +1,11 @@
 import LetsConnectButton from "@/components/shared/LetsConnectButton";
 import { ArrowRight } from "lucide-react";
+import ProjectsLogoSwiper from "./ProjectsLogoSwiper";
 
 export default function Hero() {
 	return (
 		<section
-			className="relative w-full min-h-screen overflow-hidden flex items-center justify-center"
+			className="relative w-full min-h-screen overflow-hidden flex flex-col items-center justify-between py-20 px-6 md:px-12 lg:px-24"
 			id="hero">
 			{/* Background Image Layer */}
 			<div
@@ -51,6 +52,10 @@ export default function Hero() {
 					<LetsConnectButton />
 				</div>
 			</div>
+			{/* Projects Logo Swiper */}
+			{/* <div className="w-full "> */}
+			<ProjectsLogoSwiper />
+			{/* </div> */}
 		</section>
 	);
 }

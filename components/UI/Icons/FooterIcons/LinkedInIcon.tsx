@@ -1,6 +1,6 @@
 import { SVGProps } from "react";
 
-const LinkedInIcon = (props: SVGProps<SVGSVGElement>) => (
+const linkedInIcon = (props: SVGProps<SVGSVGElement>) => (
 	<svg
 		width={61}
 		height={61}
@@ -75,4 +75,4 @@ const LinkedInIcon = (props: SVGProps<SVGSVGElement>) => (
 	</svg>
 );
 
-export default LinkedInIcon;
+export default linkedInIcon;

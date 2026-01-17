@@ -1,6 +1,6 @@
 import EmailIcon from "@/components/UI/Icons/FooterIcons/EmailIcon";
 import LinkedInIcon from "@/components/UI/Icons/FooterIcons/LinkedInIcon";
-import WhatsIAppIcon from "@/components/UI/Icons/FooterIcons/WhatsIAppIcon";
+import WhatsIcon from "@/components/UI/Icons/FooterIcons/WhatsIcon";
 import { Phone } from "lucide-react";
 import Link from "next/link";
 
@@ -30,7 +30,7 @@ export default function FooterRight() {
 				</div>
 			</div>
 			{/* Social Icons */}
-			<div className="flex items-center gap-6 mt-4">
+			<div className="flex items-center gap-2 md:gap-6 mt-4">
 				<Link
 					href="https://www.linkedin.com/in/mahmoud-ashraf-yaqout/"
 					target="_blank"
@@ -41,7 +41,7 @@ export default function FooterRight() {
 					href="https://wa.me/201095691698"
 					target="_blank"
 					rel="noopener noreferrer">
-					<WhatsIAppIcon />
+					<WhatsIcon />
 				</Link>
 				<Link href="mailto:mahmoudyaqout163@gmail.com">
 					<EmailIcon />

@@ -1,7 +1,6 @@
 export interface ProjectDetails {
 	fullDescription: string;
 	features: string[];
-	role: string;
 }
 
 export interface Technology {
@@ -9,7 +8,7 @@ export interface Technology {
 	icon?: string;
 }
 export interface ProjectCardProps {
-	number: string;
+	index?: number;
 	title: string;
 	description: string;
 	technologies: Technology[];
@@ -18,7 +17,7 @@ export interface ProjectCardProps {
 }
 
 export interface Project {
-	number: string;
+	index?: number;
 	title: string;
 	description: string;
 	technologies: Technology[];

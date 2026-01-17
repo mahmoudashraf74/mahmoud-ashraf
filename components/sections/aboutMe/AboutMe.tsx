@@ -30,7 +30,10 @@ const aboutMeContent = {
 
 export default function AboutMe() {
 	return (
-		<section className="relative w-full min-h-screen overflow-hidden flex flex-col md:flex-row items-center justify-between py-28 px-6 md:px-12 lg:px-24 gap-10">
+		<section
+			id="about"
+			className="relative w-full min-h-screen overflow-hidden flex flex-col md:flex-row items-center justify-between py-28 px-6 md:px-12 lg:px-24 gap-10 bg-no-repeat bg-cover bg-center"
+			style={{ backgroundImage: "url(/assets/images/aboutMeSectionBg.png)" }}>
 			<AboutMeContent
 				label={aboutMeContent.label}
 				heading={aboutMeContent.heading}

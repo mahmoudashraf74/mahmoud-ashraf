@@ -5,7 +5,7 @@ interface AboutMeImageProps {
 
 export default function AboutMeImage({ src, alt }: AboutMeImageProps) {
 	return (
-		<div className="relative w-full md:w-[50%]  h-[450px] md:h-[553px]">
+		<div className="relative w-full md:w-[40%]  h-[450px] md:h-[553px]">
 			{/* Green gradient background - rotated */}
 			<div
 				className="absolute w-full max-w-[450px] h-[450px] rounded-[51px] left-2 top-0 -rotate-[8.929deg]"

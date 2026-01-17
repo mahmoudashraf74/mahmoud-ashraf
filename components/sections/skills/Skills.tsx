@@ -7,7 +7,7 @@ export default function Skills() {
 	return (
 		<section
 			className="relative  py-28 px-6 md:px-12 lg:px-24 bg-[#0a0a0a]  w-full h-full z-0 bg-no-repeat bg-cover bg-center opacity-80"
-			style={{ backgroundImage: "url(/assets/images/firstSectionBg.png)" }}>
+			style={{ backgroundImage: "url(/assets/images/skillsSectionBg.png)" }}>
 			<div className="flex w-full max-w-[1280px] mx-auto flex-col items-center gap-16">
 				{/* Label */}
 				<div className="text-center">

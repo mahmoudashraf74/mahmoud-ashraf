@@ -28,7 +28,7 @@ export default function AboutMeContent({
 	resume,
 }: AboutMeContentProps) {
 	return (
-		<div className="relative w-full md:w-[50%] flex flex-col gap-8">
+		<div className="relative w-full md:w-[60%] flex flex-col gap-8">
 			{/* Section Label & Heading */}
 			<div className="flex flex-col gap-4">
 				{/* Label */}
@@ -50,7 +50,7 @@ export default function AboutMeContent({
 			</div>
 
 			{/* Content Container */}
-			<div className="flex flex-col gap-8 max-w-[550px]">
+			<div className="flex flex-col gap-8 max-w-[750px]">
 				{/* Bio Paragraphs */}
 				<div className="flex flex-col gap-6">
 					{bio.map((text, i) => (

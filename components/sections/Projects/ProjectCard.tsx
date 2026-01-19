@@ -51,19 +51,19 @@ export default function ProjectCard({
 
 					{/* Arrow Button */}
 					<button
-						className="arrow-button hidden md:flex"
+						className=" flex bg-white w-10 h-10 cursor-pointer rounded-full items-center justify-center hover:scale-110 transition-transform duration-300"
 						aria-label={`View ${title} project`}
 						onClick={() => link && window.open(link, "_blank")}>
 						<ArrowUpRight
 							className="w-7 h-7"
 							strokeWidth={2.368}
-							color="#fff"
+							color="#000"
 						/>
 					</button>
 				</div>
 
-				{details && isHovered && (
-					<div className="w-full hidden md:block">
+				{details && (
+					<div className="w-full">
 						<div className="flex flex-col gap-4">
 							<div>
 								<h4 className="font-outfit text-sm font-semibold text-white mb-2">

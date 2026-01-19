@@ -1,11 +1,17 @@
 import { SVGProps } from "react";
 
-const NextIcon = (props: SVGProps<SVGSVGElement>) => (
+type Props = SVGProps<SVGSVGElement> & {
+	width?: number | string;
+	height?: number | string;
+};
+
+const NextIcon = ({ width = 41, height = 41, ...props }: Props) => (
 	<svg
-		width={41}
-		height={41}
+		width={width}
+		height={height}
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
+		viewBox="0 0 41 41"
 		{...props}>
 		<g clipPath="url(#a)">
 			<path

@@ -7,7 +7,8 @@ export const projectsData: Project[] = [
 			"Built a scalable platform with clean design systems and optimized performance for enhanced user engagement.",
 		technologies: [
 			{ name: "Next.js", icon: "NextIcon" },
-			{ name: "React", icon: "ReactIcon" },
+
+			{ name: "TypeScript", icon: "TypeScriptIcon" },
 			{ name: "Redux.js", icon: "ReduxIcon" },
 			{ name: "Tailwind", icon: "TailwindIcon" },
 			{ name: "GraphQL", icon: "GraphQlIcon" },
@@ -29,7 +30,8 @@ export const projectsData: Project[] = [
 			"Developed an e-commerce platform with dynamic content integration via GraphQL, improving data efficiency and UX.",
 		technologies: [
 			{ name: "Next.js", icon: "NextIcon" },
-			{ name: "React", icon: "ReactIcon" },
+
+			{ name: "TypeScript", icon: "TypeScriptIcon" },
 			{ name: "Redux.js", icon: "ReduxIcon" },
 			{ name: "Tailwind", icon: "TailwindIcon" },
 			{ name: "GraphQL", icon: "GraphQlIcon" },
@@ -51,7 +53,8 @@ export const projectsData: Project[] = [
 			"Created a modern e-commerce experience with advanced state management and seamless user flows from browsing to checkout.",
 		technologies: [
 			{ name: "Next.js", icon: "NextIcon" },
-			{ name: "React", icon: "ReactIcon" },
+
+			{ name: "TypeScript", icon: "TypeScriptIcon" },
 			{ name: "Redux.js", icon: "ReduxIcon" },
 			{ name: "Tailwind", icon: "TailwindIcon" },
 			{ name: "GraphQL", icon: "GraphQlIcon" },
@@ -72,7 +75,8 @@ export const projectsData: Project[] = [
 			"Developed a data-driven platform connecting farmers with buyers, featuring real-time pricing and location-based search.",
 		technologies: [
 			{ name: "Next.js", icon: "NextIcon" },
-			{ name: "React", icon: "ReactIcon" },
+
+			{ name: "TypeScript", icon: "TypeScriptIcon" },
 			{ name: "Redux.js", icon: "ReduxIcon" },
 			{ name: "Sass", icon: "SassIcon" },
 			{ name: "REST APIs", icon: "" },
@@ -93,7 +97,6 @@ export const projectsData: Project[] = [
 		description:
 			"Built and optimized the UI for an online fashion retailer, improving customer experience with modern design and seamless checkout flows.",
 		technologies: [
-			{ name: "React", icon: "ReactIcon" },
 			{ name: "Next.js", icon: "NextIcon" },
 			{ name: "Redux.js", icon: "ReduxIcon" },
 			{ name: "Sass", icon: "SassIcon" },
@@ -115,7 +118,6 @@ export const projectsData: Project[] = [
 		description:
 			"An agriculture solutions website showcasing innovative farming technologies and sustainable agricultural practices for modern farmers.",
 		technologies: [
-			{ name: "React", icon: "ReactIcon" },
 			{ name: "Next.js", icon: "NextIcon" },
 			{ name: "Tailwind", icon: "TailwindIcon" },
 		],

@@ -1,10 +1,15 @@
 import { SVGProps } from "react";
 
-const SassIcon = (props: SVGProps<SVGSVGElement>) => (
+type Props = SVGProps<SVGSVGElement> & {
+	width?: number | string;
+	height?: number | string;
+};
+
+const SassIcon = ({ width = 40, height = 40, ...props }: Props) => (
 	<svg
 		xmlns="http://www.w3.org/2000/svg"
-		width={40}
-		height={40}
+		width={width}
+		height={height}
 		viewBox="0 0 512 512"
 		xmlSpace="preserve"
 		{...props}>

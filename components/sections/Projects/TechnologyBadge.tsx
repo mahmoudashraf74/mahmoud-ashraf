@@ -3,6 +3,8 @@ import ReactIcon from "@/components/UI/Icons/ReactIcon";
 import ReduxIcon from "@/components/UI/Icons/ReduxIcon";
 import TailwindIcon from "@/components/UI/Icons/TailwindIcon";
 import GraphQlIcon from "@/components/UI/Icons/GraphQlIcon";
+import SassIcon from "@/components/UI/Icons/SassIcon";
+import TypeScriptIcon from "@/components/UI/Icons/TypeScriptIcon";
 
 const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
 	NextIcon,
@@ -10,6 +12,8 @@ const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
 	ReduxIcon,
 	TailwindIcon,
 	GraphQlIcon,
+	SassIcon,
+	TypeScriptIcon,
 };
 
 interface TechnologyBadgeProps {

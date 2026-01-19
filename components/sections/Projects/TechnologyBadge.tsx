@@ -5,6 +5,9 @@ import TailwindIcon from "@/components/UI/Icons/TailwindIcon";
 import GraphQlIcon from "@/components/UI/Icons/GraphQlIcon";
 import SassIcon from "@/components/UI/Icons/SassIcon";
 import TypeScriptIcon from "@/components/UI/Icons/TypeScriptIcon";
+import GtagIcon from "@/components/UI/Icons/GtagIcon";
+import SEOIcon from "@/components/UI/Icons/SEOIcon";
+import MetaPixelIcon from "@/components/UI/Icons/MetaPixelIcon";
 
 const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
 	NextIcon,
@@ -14,6 +17,9 @@ const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
 	GraphQlIcon,
 	SassIcon,
 	TypeScriptIcon,
+	GtagIcon,
+	SEOIcon,
+	MetaPixelIcon,
 };
 
 interface TechnologyBadgeProps {

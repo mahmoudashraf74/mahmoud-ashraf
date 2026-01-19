@@ -12,6 +12,9 @@ export const projectsData: Project[] = [
 			{ name: "Redux.js", icon: "ReduxIcon" },
 			{ name: "Tailwind", icon: "TailwindIcon" },
 			{ name: "GraphQL", icon: "GraphQlIcon" },
+			{ name: "SEO", icon: "SEOIcon" },
+			{ name: "Google Tag Manager", icon: "GtagIcon" },
+			{ name: "Meta Pixel", icon: "MetaPixelIcon" },
 		],
 		link: "https://www.concrete.store/eg/en",
 		details: {
@@ -35,6 +38,8 @@ export const projectsData: Project[] = [
 			{ name: "Redux.js", icon: "ReduxIcon" },
 			{ name: "Tailwind", icon: "TailwindIcon" },
 			{ name: "GraphQL", icon: "GraphQlIcon" },
+			{ name: "SEO", icon: "SEOIcon" },
+			{ name: "Google Tag Manager", icon: "GtagIcon" },
 		],
 		link: "https://lapoire.online/",
 		details: {
@@ -58,6 +63,8 @@ export const projectsData: Project[] = [
 			{ name: "Redux.js", icon: "ReduxIcon" },
 			{ name: "Tailwind", icon: "TailwindIcon" },
 			{ name: "GraphQL", icon: "GraphQlIcon" },
+			{ name: "SEO", icon: "SEOIcon" },
+			{ name: "Google Tag Manager", icon: "GtagIcon" },
 		],
 		link: "https://www.almorshedymarts.net/",
 		details: {
@@ -80,6 +87,8 @@ export const projectsData: Project[] = [
 			{ name: "Redux.js", icon: "ReduxIcon" },
 			{ name: "Sass", icon: "SassIcon" },
 			{ name: "REST APIs", icon: "" },
+			{ name: "Google Tag Manager", icon: "GtagIcon" },
+			{ name: "Meta Pixel", icon: "MetaPixelIcon" },
 		],
 		link: "https://www.poultryfinder.com/",
 		details: {

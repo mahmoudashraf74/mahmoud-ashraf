@@ -3,11 +3,14 @@ import CssIcon from "@/components/UI/Icons/CssIcon";
 import GithubIcon from "@/components/UI/Icons/GithubIcon";
 import GitIcon from "@/components/UI/Icons/GitIcon";
 import GraphQL from "@/components/UI/Icons/GraphQlIcon";
+import GtagIcon from "@/components/UI/Icons/GtagIcon";
 import JsIcon from "@/components/UI/Icons/JsIcon";
+import MetaPixelIcon from "@/components/UI/Icons/MetaPixelIcon";
 import NextIcon from "@/components/UI/Icons/NextIcon";
 import ReactIcon from "@/components/UI/Icons/ReactIcon";
 import ReduxIcon from "@/components/UI/Icons/ReduxIcon";
 import SassIcon from "@/components/UI/Icons/SassIcon";
+import SEOIcon from "@/components/UI/Icons/SEOIcon";
 import TailwindIcon from "@/components/UI/Icons/TailwindIcon";
 import TanstackIcon from "@/components/UI/Icons/TanstackIcon";
 import TypeScriptIcon from "@/components/UI/Icons/TypeScriptIcon";
@@ -29,6 +32,10 @@ export const skillsData: Skill[] = [
 	{ name: "GraphQL", icon: GraphQL },
 	{ name: "Redux", icon: ReduxIcon },
 	{ name: "TanStack", icon: TanstackIcon },
+
+	{ name: "SEO", icon: SEOIcon, color: "#FAFAFA" },
+	{ name: "Google Tag Manager", icon: GtagIcon, color: "#FAFAFA" },
+	{ name: "Meta Pixel", icon: MetaPixelIcon },
 
 	// DevOps & Tools
 	{ name: "Git", icon: GitIcon },

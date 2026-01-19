@@ -26,7 +26,7 @@ export default function Skills() {
 					</h2>
 				</div>
 
-				{/* Skills Grid */}
+				{/* Skills  */}
 				<div className="w-full max-w-4xl">
 					<div className="flex flex-wrap justify-center gap-2">
 						{skillsData.map((skill, index) => (

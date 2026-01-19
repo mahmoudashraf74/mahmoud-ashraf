@@ -9,14 +9,10 @@ import ReactIcon from "@/components/UI/Icons/ReactIcon";
 import ReduxIcon from "@/components/UI/Icons/ReduxIcon";
 import SassIcon from "@/components/UI/Icons/SassIcon";
 import TailwindIcon from "@/components/UI/Icons/TailwindIcon";
+import TanstackIcon from "@/components/UI/Icons/TanstackIcon";
 import TypeScriptIcon from "@/components/UI/Icons/TypeScriptIcon";
+import { Skill } from "@/interfaces/skills";
 import { Rocket } from "lucide-react";
-
-export interface Skill {
-	name: string;
-	icon: any;
-	color?: string;
-}
 
 export const skillsData: Skill[] = [
 	// Frontend & Core
@@ -32,7 +28,7 @@ export const skillsData: Skill[] = [
 
 	{ name: "GraphQL", icon: GraphQL },
 	{ name: "Redux", icon: ReduxIcon },
-	{ name: "TanStack", icon: ReduxIcon },
+	{ name: "TanStack", icon: TanstackIcon },
 
 	// DevOps & Tools
 	{ name: "Git", icon: GitIcon },

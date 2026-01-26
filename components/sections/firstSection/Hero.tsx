@@ -8,7 +8,7 @@ export default function Hero() {
 			id="hero">
 			{/* Background Image Layer */}
 			<div
-				className="absolute inset-0 w-full h-full z-0 bg-no-repeat bg-cover bg-center opacity-80"
+				className="absolute inset-0 w-full h-full z-0 bg-no-repeat bg-cover bg-center"
 				style={{ backgroundImage: "url(/assets/images/firstSectionBg.png)" }}
 			/>
 			<div className="relative w-full flex flex-col items-center justify-between gap-30 pt-20 z-10">

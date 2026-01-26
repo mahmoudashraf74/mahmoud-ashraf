@@ -50,7 +50,7 @@ export default function AboutMeContent({
 			</div>
 
 			{/* Content Container */}
-			<div className="flex flex-col gap-8 max-w-[750px]">
+			<div className="flex flex-col gap-8 max-w-[750px] text-white">
 				{/* Bio Paragraphs */}
 				<div className="flex flex-col gap-6">
 					{bio.map((text, i) => (

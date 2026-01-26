@@ -33,7 +33,7 @@ export default function ProjectCard({
 					<div className="flex flex-col gap-7 flex-1">
 						{/* Project Title */}
 						<h3 className="project-title">
-							<span className="font-outfit text-2xl md:text-[60px] font-normal leading-9">
+							<span className="font-outfit text-2xl md:text-[60px] font-normal leading-9 text-white">
 								{title}
 							</span>
 						</h3>
@@ -42,7 +42,7 @@ export default function ProjectCard({
 						<div className="flex flex-col gap-7">
 							{/* Description */}
 							<div className="project-description">
-								<p className="font-outfit text-[15px] font-normal leading-[19.5px]">
+								<p className="font-outfit text-[15px] font-normal leading-[19.5px] text-white">
 									{description}
 								</p>
 							</div>

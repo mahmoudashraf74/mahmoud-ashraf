@@ -39,7 +39,7 @@ export default function AboutMeContent({
 				</div>
 
 				{/* Main Heading */}
-				<h2 className="font-instrument-serif text-4xl sm:text-5xl md:text-6xl font-normal leading-[60px] tracking-[-1.5px] max-w-[577px] gradient-text ">
+				<h2 className="font-instrument-serif text-5xl sm:text-5xl md:text-6xl font-normal leading-[60px] tracking-[-1.5px] max-w-[577px] gradient-text ">
 					{heading.split("\n").map((line, i) => (
 						<span key={i}>
 							{line}

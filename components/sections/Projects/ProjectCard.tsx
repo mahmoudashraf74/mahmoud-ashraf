@@ -4,6 +4,7 @@ import { useState } from "react";
 import { ProjectCardProps } from "../../../interfaces/project";
 import { ArrowUpRight, SparkleIcon, Sparkles } from "lucide-react";
 import TechnologyBadge from "@/components/sections/Projects/TechnologyBadge";
+import { motion } from "framer-motion";
 
 export default function ProjectCard({
 	title,
@@ -16,10 +17,14 @@ export default function ProjectCard({
 	const [isHovered, setIsHovered] = useState(false);
 
 	return (
-		<div
+		<motion.div
 			className="flex flex-row items-center gap-12 w-full "
 			onMouseEnter={() => setIsHovered(true)}
-			onMouseLeave={() => setIsHovered(false)}>
+			onMouseLeave={() => setIsHovered(false)}
+			initial={{ opacity: 0, y: 50 }}
+			whileInView={{ opacity: 1, y: 0 }}
+			transition={{ duration: 0.8, ease: "easeOut" }}
+			viewport={{ once: false, amount: 0.3 }}>
 			{/* Project Number */}
 			<div className="hidden md:flex items-center justify-center flex-shrink-0">
 				<span
@@ -103,6 +108,6 @@ export default function ProjectCard({
 				{/* Divider */}
 				<div className="w-full h-[1px] bg-[#D4D4D4]" />
 			</div>
-		</div>
+		</motion.div>
 	);
 }

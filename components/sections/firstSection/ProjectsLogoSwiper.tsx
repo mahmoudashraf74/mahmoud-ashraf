@@ -12,8 +12,10 @@ export default function ProjectsLogoSwiper() {
 			<Swiper
 				modules={[Autoplay]}
 				autoplay={{
-					delay: 2000,
+					// delay: 2000,
 					disableOnInteraction: false,
+					delay: 1000,
+					pauseOnMouseEnter: true,
 				}}
 				loop={true}
 				slidesPerView={2.5}

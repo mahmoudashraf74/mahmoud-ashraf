@@ -1,12 +1,6 @@
-"use client";
-
+import { AboutMeImageProps } from "@/interfaces/aboutMe";
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-
-interface AboutMeImageProps {
-	src: string;
-	alt: string;
-}
 
 export default function AboutMeImage({ src, alt }: AboutMeImageProps) {
 	const ref = useRef(null);

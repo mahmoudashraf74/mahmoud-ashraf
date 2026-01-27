@@ -1,5 +1,6 @@
 "use client";
 import { ArrowRight } from "lucide-react";
+import { motion } from "framer-motion";
 
 export default function LetsConnectButton() {
 	return (
@@ -9,12 +10,21 @@ export default function LetsConnectButton() {
 			<span className="text-white font-outfit font-medium text-base">
 				Let&apos;s Connect
 			</span>
-			<div className="flex items-center justify-center w-9 h-9 rounded-full bg-white">
+			<motion.div
+				className="flex items-center justify-center w-9 h-9 rounded-full bg-white"
+				whileHover={{ scale: 1.1, rotate: 45 }}
+				animate={{ opacity: [1, 0.5, 1], x: [-5, 3, -5] }}
+				transition={{
+					opacity: { duration: 2, repeat: Infinity, ease: "easeInOut" },
+					x: { duration: 2, repeat: Infinity, ease: "easeInOut" },
+					scale: { duration: 0.3, ease: "easeOut" },
+					rotate: { duration: 0.3, ease: "easeOut" },
+				}}>
 				<ArrowRight
 					className="w-[18px] h-[18px] text-black"
 					strokeWidth={1.5}
 				/>
-			</div>
+			</motion.div>
 		</button>
 	);
 }

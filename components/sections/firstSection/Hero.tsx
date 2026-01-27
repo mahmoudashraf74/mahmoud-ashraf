@@ -1,5 +1,7 @@
+"use client";
 import LetsConnectButton from "@/components/shared/LetsConnectButton";
 import ProjectsLogoSwiper from "./ProjectsLogoSwiper";
+import { motion } from "framer-motion";
 
 export default function Hero() {
 	return (
@@ -16,11 +18,21 @@ export default function Hero() {
 				<div className="relative w-full max-w-[1280px] flex flex-col items-center  gap-6">
 					{/* Main Heading */}
 					<div className="flex flex-col items-center">
-						<h1 className="text-center font-instrument-serif text-4xl sm:text-5xl md:text-6xl font-normal leading-[1.2]  text-white">
+						<motion.h1
+							className="capitalize text-center font-instrument-serif text-4xl sm:text-5xl md:text-6xl font-normal leading-[1.2]  text-white"
+							initial={{ opacity: 0, x: -30 }}
+							whileInView={{ opacity: 1, x: 0 }}
+							transition={{ duration: 0.8, delay: 0.2, ease: "circOut" }}
+							viewport={{ once: false, amount: 0.5 }}>
 							I help founders turn ideas
 							<br />
 							into seamless <span className="italic">digital experiences</span>
-						</h1>
+						</motion.h1>
+						{/* <h1 className="capitalize text-center font-instrument-serif text-4xl sm:text-5xl md:text-6xl font-normal leading-[1.2]  text-white">
+							Software engineer specializing in building scalable,
+							<br />
+							high-performance digital solutions.
+						</h1> */}
 					</div>
 
 					{/* Subheading with Image */}

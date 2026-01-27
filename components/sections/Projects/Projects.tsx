@@ -14,7 +14,7 @@ export default function Projects() {
 				{/* projectsData */}
 				<div className="flex flex-col items-center gap-16">
 					{projectsData.map((project, index) => (
-						<ProjectCard key={index} index={index} {...project}  />
+						<ProjectCard key={index} index={index} {...project} />
 					))}
 				</div>
 			</div>

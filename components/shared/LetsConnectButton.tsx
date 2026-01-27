@@ -12,7 +12,6 @@ export default function LetsConnectButton() {
 			</span>
 			<motion.div
 				className="flex items-center justify-center w-9 h-9 rounded-full bg-white"
-				whileHover={{ scale: 1.1, rotate: 45 }}
 				animate={{ opacity: [1, 0.5, 1], x: [-5, 3, -5] }}
 				transition={{
 					opacity: { duration: 2, repeat: Infinity, ease: "easeInOut" },

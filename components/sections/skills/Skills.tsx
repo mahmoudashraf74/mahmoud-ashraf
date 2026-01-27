@@ -2,6 +2,7 @@
 
 import SkillIconCard from "./SkillIconCard";
 import { skillsData } from "@/constants/skillsData";
+import { motion } from "framer-motion";
 
 export default function Skills() {
 	return (
@@ -29,14 +30,32 @@ export default function Skills() {
 				{/* Skills  */}
 				<div className="w-full max-w-4xl">
 					<div className="flex flex-wrap justify-center gap-2">
-						{skillsData.map((skill, index) => (
-							<SkillIconCard
-								key={index}
-								icon={skill.icon}
-								name={skill.name}
-								color={skill.color}
-							/>
-						))}
+						{skillsData.map((skill, index) => {
+							const position = skill.position || { x: 0, y: 0 };
+							return (
+								<motion.div
+									key={index}
+									initial={{
+										opacity: 0,
+										scale: 0.5,
+										x: position.x,
+										y: position.y,
+									}}
+									whileInView={{ opacity: 1, scale: 1, x: 0, y: 0 }}
+									transition={{
+										duration: 0.7,
+										delay: index * 0.05,
+										ease: "easeOut",
+									}}
+									viewport={{ once: false, amount: 0.5 }}>
+									<SkillIconCard
+										icon={skill.icon}
+										name={skill.name}
+										color={skill.color}
+									/>
+								</motion.div>
+							);
+						})}
 					</div>
 				</div>
 			</div>

@@ -19,26 +19,36 @@ import { Rocket } from "lucide-react";
 
 export const skillsData: Skill[] = [
 	// Frontend & Core
-	{ name: "Next.js", icon: NextIcon },
-	{ name: "React", icon: ReactIcon },
-	{ name: "TypeScript", icon: TypeScriptIcon },
-	{ name: "Js", icon: JsIcon },
+	{ name: "Next.js", icon: NextIcon, position: { x: -45, y: -30 } },
+	{ name: "React", icon: ReactIcon, position: { x: 50, y: -20 } },
+	{ name: "TypeScript", icon: TypeScriptIcon, position: { x: -30, y: 40 } },
+	{ name: "Js", icon: JsIcon, position: { x: 60, y: 25 } },
 
-	{ name: "Tailwind CSS", icon: TailwindIcon },
-	{ name: "Bootstrap", icon: BootstrapIcon },
-	{ name: "Sass", icon: SassIcon },
-	{ name: "CSS", icon: CssIcon },
+	{ name: "Tailwind CSS", icon: TailwindIcon, position: { x: -55, y: -15 } },
+	{ name: "Bootstrap", icon: BootstrapIcon, position: { x: 40, y: -35 } },
+	{ name: "Sass", icon: SassIcon, position: { x: -25, y: 30 } },
+	{ name: "CSS", icon: CssIcon, position: { x: 65, y: -10 } },
 
-	{ name: "GraphQL", icon: GraphQL },
-	{ name: "Redux", icon: ReduxIcon },
-	{ name: "TanStack", icon: TanstackIcon },
+	{ name: "GraphQL", icon: GraphQL, position: { x: -40, y: 20 } },
+	{ name: "Redux", icon: ReduxIcon, position: { x: 35, y: 35 } },
+	{ name: "TanStack", icon: TanstackIcon, position: { x: -60, y: -25 } },
 
-	{ name: "SEO", icon: SEOIcon, color: "#FAFAFA" },
-	{ name: "Google Tag Manager", icon: GtagIcon, color: "#FAFAFA" },
-	{ name: "Meta Pixel", icon: MetaPixelIcon },
+	{ name: "SEO", icon: SEOIcon, color: "#FAFAFA", position: { x: 45, y: 15 } },
+	{
+		name: "Google Tag Manager",
+		icon: GtagIcon,
+		color: "#FAFAFA",
+		position: { x: -35, y: -40 },
+	},
+	{ name: "Meta Pixel", icon: MetaPixelIcon, position: { x: 55, y: -5 } },
 
 	// DevOps & Tools
-	{ name: "Git", icon: GitIcon },
-	{ name: "GitHub", icon: GithubIcon },
-	{ name: "Vercel", icon: Rocket, color: "#FAFAFA" },
+	{ name: "Git", icon: GitIcon, position: { x: -50, y: 10 } },
+	{ name: "GitHub", icon: GithubIcon, position: { x: 30, y: -30 } },
+	{
+		name: "Vercel",
+		icon: Rocket,
+		color: "#FAFAFA",
+		position: { x: -20, y: 35 },
+	},
 ];
